@@ -1,8 +1,8 @@
 body{
     margin: 0% 15%;
     font-family: Comic Sans MS, Comic Sans, cursive	;
-
 }
+
 /* *{
     outline: red 2px dotted ;
 } */
@@ -83,8 +83,7 @@ body{
     margin: 5px;
     font-style: italic;
 }
-
-.btn-like , .add{
+.btn-like ,.add{
     border: 2px solid black;
     box-shadow: 4px 4px black;
     color: black;
@@ -96,15 +95,12 @@ body{
 .btn-like{
     background-color:gold;
 }
-
 .add{
     background-color: darkseagreen;
 }
 .defined p {
     margin: 0px;
 }
-
-
 .font{
     font-weight:bold; 
 }

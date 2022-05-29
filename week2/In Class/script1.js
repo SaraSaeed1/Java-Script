@@ -15,7 +15,11 @@ const arrB2 = ["a", "b"]
 // const expected2 = [1, 2, 3, "a", "b"]
 
 function concat(arr1,arr2){
-    var newArr=arr1
+    var newArr=[];
+
+    for(i=0; i<arr1.length ; i++){
+        newArr.push(arr1[i]);
+    }
     for(i=0; i<arr2.length ; i++){
         newArr.push(arr2[i]);
     }
