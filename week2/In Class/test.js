@@ -11,3 +11,13 @@ function turnOff(element) {
 }
 
 
+function add(element){
+    element.add("color");
+}
+function over(element) {
+    element.style.add("color"); 
+}
+    
+function out(element) {
+    element.style.add("color"); 
+}

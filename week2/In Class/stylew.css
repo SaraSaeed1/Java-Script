@@ -1,0 +1,36 @@
+button{
+    height: 20%;
+    width: 20%;
+    background-color: antiquewhite;
+    border-radius: 500px;
+    float: right;
+    margin: 3%;
+}
+
+#clic{
+    border: 2px solid rebeccapurple;
+}#a1{
+    border: 2px solid brown;
+}#a2{
+    border: 2px solid red;
+}#a3{
+    border: 2px solid orange;
+}
+
+
+.note{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+
+.color{
+    background-color: aqua;
+}
+
+.block {
+    height: 50px;
+    width: 200px;
+    background-color: silver;
+    border: 1px dotted black;
+}
