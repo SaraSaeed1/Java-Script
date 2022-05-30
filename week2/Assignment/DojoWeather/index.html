@@ -5,8 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="wrapper">
+        <div class="nav">
+            <h1>DojoWeather</h1>
+            <div class="nav-link">
+                <a onclick="alert('Loading weather report...')" href="#">Burbank</a>
+                <a onclick="alert('Loading weather report...')" href="#">Chicago</a>
+                <a onclick="alert('Loading weather report...')" href="#">Dallas</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="name-city">
+                <h2>San Jose</h2>
+                <div class="temp">
+                    <p>show temperature in</p>
+                    <select  onclick=" temp(this)">
+                        <option value="cel">C</option>
+                        <option value="feh">F</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="weather">
+
+                <div class="weather-info">
+                    <h2>Today</h2>
+                    <img src="assets/some_rain.png" alt="img some rain">
+                    <p>some rain</p>
+                    <div class="num-temp">
+                        <p class="temp-red">24</p>
+                        <p class="temp-blue">18</p>
+                    </div>
+                </div>
+
+                <div class="weather-info">
+                    <h2>Tomorrow</h2>
+                    <img src="assets/some_sun.png" alt="img some sun">
+                    <p>some rain</p>
+                    <div class="num-temp">
+                        <p class="temp-red">24</p>
+                        <p class="temp-blue">18</p>
+                    </div>
+                </div>
+
+                <div class="weather-info">
+                    <h2>Friday</h2>
+                    <img src="assets/some_clouds.png" alt="img some clouds">
+                    <p>some rain</p>
+                    <div class="num-temp">
+                        <p class="temp-red">24</p>
+                        <p class="temp-blue">18</p>
+                    </div>
+                </div>
+
+                <div class="weather-info">
+                    <h2>Saturday</h2>
+                    <img src="assets/some_sun.png" alt="img some sun">
+                    <p>some rain</p>
+                    <div class="num-temp">
+                        <p class="temp-red">24</p>
+                        <p class="temp-blue">18</p>
+                    </div>
+                </div>
+
+            </div>
+            
+
+            <div class="cookie">
+                <img src="assets/cookie.png" alt="img cookie">
+                <div class="cookie-info">
+                    <h1>Stop! cookie time</h1>
+                    <p> 
+                    We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button onclick="remove(this)">I Accept </button>
+                
+            </div>
+
+        </div>
+
+    </div>
     
+    <script src="script.js"></script>
 </body>
 </html>

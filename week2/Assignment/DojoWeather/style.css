@@ -1,0 +1,114 @@
+*{
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    /* font-size: 35px; */
+    font-weight: 100;
+}
+#wrapper{
+    margin: 0% auto;
+}
+.nav{
+    background-color:#9fc5f8;
+    padding: 0 10%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    width: 40%;
+}
+.nav a{
+    margin-right: 3%;
+    color: white;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+.name-city{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+
+}
+.name-city h2{
+    flex: 1;
+}
+.temp{
+    display: flex;
+    flex-direction: row;
+    flex:2;
+    align-items: center;
+    justify-content: flex-end;
+}
+.temp p{
+    margin: 0% 5%;
+}
+.weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0%;
+}
+.weather-info{
+    width: 20%;
+    background-color: #e3e4e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather-info img{
+    border-radius: 50%;
+    width: 50%;
+}
+.num-temp{
+    font-size: large;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.temp-red, .temp-blue{
+    font-size: 100%;
+    font-weight: bold;
+}
+.temp-red{
+    color: red;
+}
+.temp-blue{
+    color: blue;
+}
+.cookie{
+    display: flex;
+    position: fixed;
+    border: black solid 2px;
+    flex-direction: row;
+    padding: 2%;
+    align-items: center;
+    bottom: 0;
+}
+.cookie-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 7%;
+}
+.cookie-info h1{
+    margin: 0%;
+}
+.cookie-info p{
+    margin: 0%;
+}
+.cookie button{
+    border: 2px solid black;
+    background-color: #9fc5f8;
+    box-shadow: 4px 4px black;
+    font-size: large;
+    width: 50%;
+}
