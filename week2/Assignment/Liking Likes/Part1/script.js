@@ -1,4 +1,4 @@
-var count =1;
+var count =0;
 var x = document.querySelector("#like");
 
 console.log(x);
