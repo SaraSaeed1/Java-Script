@@ -1,6 +1,6 @@
 
 function add(e){
-    var likes =e.parentElement.querySelector("p #likes");
-    let count=parseInt(likes.innerText);
-    likes.innerText= count+1;
+    var x= (e.parentElement.querySelector("p #likes")) 
+    let count=parseInt(x.innerText);
+    x.innerText= count+1;
 }

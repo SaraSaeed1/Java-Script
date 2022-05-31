@@ -2,22 +2,27 @@ function remove(e){
     e.parentElement.remove();
 }
 
-var red = document.querySelectorAll(".temp-red")
-var blue = document.querySelectorAll(".temp-blue")
-console.log(red);
+
 function temp(e){
-    if(e.value== 'feh'){
-        var feh =((Number(a[i].innerHTML)*(9/5))+32);
-        for(i=0 ; i<=red.length ; i++){
-            red[i].innerHTML=feh;
+    console.log(e.value);
+    var red = document.querySelectorAll(".temp-red")
+    var blue = document.querySelectorAll(".temp-blue")
+
+    if(e.value == "feh"){
+        for(var i=0 ; i<=red.length ; i++){
+            red[i].innerHTML=((Number(red[i].innerHTML))*(9/5))+32;
         }        
-        for(i=0 ; i<=blue.length ; i++){
-            red[i].innerHTML=feh;
+        for(var i=0 ; i<=blue.length ; i++){
+            blue[i].innerHTML=((Number(blue[i].innerHTML))*(9/5))+32; 
         }
     }else{
-        var col = (((Number(a[i].innerHTML))-32)/ 1.8);
-        for(i=0 ; i<=red.length ; i++){
-            red[i].innerHTML=col.toFixed(1)
+        for(var i=0 ; i<=red.length ; i++){
+            var col = (((Number(red[i].innerHTML))+32)/ (1.8));
+            red[i].innerHTML=col.toFixed()
+        }
+        for(var i=0 ; i<=blue.length ; i++){
+            var col = (((Number(blue[i].innerHTML))+32)/ (1.8));
+            blue[i].innerHTML=col.toFixed()
         }
     }
 

@@ -1,3 +1,6 @@
+body{
+    height: 3000px;
+}
 *{
     font-family: Comic Sans MS, Comic Sans, cursive	;
     /* font-size: 35px; */
@@ -19,9 +22,10 @@
     width: 40%;
 }
 .nav a{
-    margin-right: 3%;
+    margin-right: 5%;
     color: white;
     text-decoration: none;
+    font-size: 26px;
 }
 .main{
     display: flex;
@@ -87,12 +91,18 @@
 }
 .cookie{
     display: flex;
-    position: fixed;
+    background-color: #e3e4e4;
     border: black solid 2px;
     flex-direction: row;
-    padding: 2%;
+    padding: 1%;
     align-items: center;
     bottom: 0;
+    position: fixed;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    /* margin-top: 3%; */
+    /* width: 100%; */
+    /* margin-left: 2%;*/
 }
 .cookie-info{
     display: flex;
@@ -110,5 +120,5 @@
     background-color: #9fc5f8;
     box-shadow: 4px 4px black;
     font-size: large;
-    width: 50%;
+    width: 20%;
 }
